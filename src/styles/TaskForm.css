@@ -1,0 +1,120 @@
+/* Modal Styles */
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    padding: 15px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Form Styles */
+  form {
+    margin: 0;
+  }
+  
+  form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  form .form-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #495057;
+  }
+  
+  form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #495057;
+  }
+  
+  form .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  form .form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #495057;
+  }
+  
+  form .form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Button Styles */
+  button.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  button.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .modal-body {
+      padding: 15px;
+    }
+  
+    .modal-footer {
+      padding: 10px 15px;
+    }
+  
+    form .form-group {
+      margin-bottom: 10px;
+    }
+  
+    form .form-control,
+    form .form-select {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 0.8rem;
+      padding: 7px 12px;
+    }
+  }
+  

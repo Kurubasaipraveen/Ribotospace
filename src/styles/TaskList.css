@@ -1,0 +1,97 @@
+/* General Table Styles */
+.table {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #495057;
+  }
+  
+  .table td:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  .table td:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
+  /* Button Styles */
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+  }
+  
+  /* Add Task Button */
+  .my-3 {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-3:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .table {
+      font-size: 0.85rem;
+    }
+  
+    .btn {
+      font-size: 0.8rem;
+      padding: 7px 12px;
+    }
+  
+    .my-3 {
+      font-size: 0.85rem;
+      padding: 7px 12px;
+    }
+  }
+  
